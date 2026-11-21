@@ -1,9 +1,66 @@
 DATE: 20-NOV-2026
 
-Today I have decide to want to start building something. After so many procastinations, finally started to do some research on what to learn and how to achieve things in a step by step manner.
+Started with the basic setup required for learning web and mobile development. 
 
-Gave a prompt to claude to act as a teacher and help along the way. I was confused a lot on where to begin with, whether learning to code in 2026 in the era of AI, what language to start with, is it worth learning in 2026, is it good for the job market etc. Then finally decided not to overthink and just jump in. So here I am typing random things in the document and getting started with something rather than not starting at all.
+1. Installed vs code.
+2. Created Github account.
+3. Installed GIT and done with 1st commit.
+4. Bookmarked Study resources.
 
-Here is to the new journey. 
 
-Vamos.
+<!-- Date: 21-NOV-2026  -->
+
+Today, Have learned Basics.
+
+1. What is javaScript?
+
+It is a language invented to make pages live. Earlier it was called LiveScript but later changed the name.
+
+It can run in browser or any other device given there is a javaScript Engine.
+
+Different browsers use different engine.
+a. V8 engine in Chrome, Opera, Edge.
+b. Nitro, SquirrelFish in Safari.
+c. SpiderMonkey in Firefox
+
+2. Variables
+
+In javscript, variable is used to store data. It may be a string, number or anything within defined constraints.
+
+Variables are defined using keywords such as let or var (old style), const.
+
+a. let vs const
+
+let is used to declare a variable which can change at any point of time.
+
+Eg: let name = "umesh";
+alert(name);
+If we run now it will show name printed as umesh.
+
+let name = "umesh";
+name = "chandra";
+alert(name);
+This prints chandra
+
+On the other hand, if we know a value does not change, such as birthday of a person. We can declare it as const BIRTHDAY. If we try to change const values, it throws Uncaught TypeError: Assignment to constant variable.
+
+3. Datatypes
+
+In javascript we have 8 datatypes, 7 primitive (single value type) and 1 non-primitive (collection of key value pair)
+
+7 Primitive:
+
+a. Number
+b. BigInt   
+c. String
+d. Boolean
+e. null
+f. undefined
+g. Symbol
+
+1 Non-primitive
+
+a. Object
+
+Note:
+typeof null is more than "an error." It is a bug from the first version of JavaScript. It was never fixed because changing it would break existing websites. The safe way to check for null is value === null. Add that to your log.
