@@ -39,3 +39,7 @@ const taxPercentage = 0.18; // 18% tax
 let bill = 300; // example bill amount
 let totalBill = bill + bill * tipPercentage + bill * taxPercentage; // adding 10% tip and 18% tax
 alert("Total Bill: $" + totalBill.toFixed(2));
+
+// alert, prompt, and confirm
+let userName = prompt("Please enter your name:");
+alert("Hello, " + userName + "!");
